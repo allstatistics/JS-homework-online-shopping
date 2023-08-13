@@ -1,0 +1,155 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Comfortaa&family=Itim&family=Livvic:wght@400;700&family=Lora:wght@500&family=Sunflower:wght@300&family=Tienne:wght@400;700&display=swap');
+
+.header-div {
+    width: 40%;
+    margin: 25px auto;
+    justify-content: baseline;
+}
+.list,
+.sub-list {
+    width: 95vw;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    transition: .2s;
+}
+
+.button-div {
+    background-color: rgb(255, 255, 255);
+}
+
+.not-displaying {
+    display: none;
+}
+
+.error-message {
+    color: red;
+}
+
+.error-div {
+    width: 100%;
+}
+
+.price {
+    font-size: 28px;
+    font-family: 'Lora', serif;
+    font-weight: 600;
+}
+
+.flt-card,
+.sidebar-card {
+    margin-bottom: 20px;
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px #ff00001a;
+    transition: all 0.7s ease;
+    opacity: .5;
+    border-bottom-left-radius: 20px;
+}
+
+.flt-card-head {
+    overflow: hidden;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+.flt-card-head img {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    transition: transform .7s;
+}
+
+.flt-card-body {
+    padding: 0px;
+}
+
+.flt-card-body .list-group-item {
+    font-size: 20px;
+    width: 400px;
+    height: auto;
+    border-radius: 4px;
+}
+.flt-card:hover {
+    box-shadow: 0 5px 24px #0000001a;
+    transform: translateY(-10px);
+    opacity: 1;
+}
+
+.flt-card:hover .flt-card-head img {
+    transform: scale(1.2, 1.2);
+}
+
+.card-container {
+    display: flex;
+    margin: 16px 0;
+    flex-wrap: wrap;
+}
+
+.offcanvas-body h1 {
+    color: red;
+    font-size: 26px;
+}
+
+.card-container:hover .sidebar-card {
+    opacity: 0.5;
+}
+
+.card-container:hover .sidebar-card:hover {
+    opacity: 1;
+}
+
+
+.sidebar-card ul li {
+    width: 350px;
+    height: auto;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #000000;
+    border-radius: 4px;
+}
+
+
+.sidebar-card {
+    max-width: 350px;
+    background-color: #f3f3f3;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.sidebar-card img {
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.cart-button {
+    position: fixed;
+    right: 5%;
+}
+
+.cart-btn-position {
+    font-size: 20px;
+}
+
+.bi-cart4 {
+    font-size: 36px;
+}
+
+.btn-position {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(to right, #f2fcfe, #1c92d2);
+}
+
+.btn-position i {
+    position: absolute;
+    top: 0;
+    right: 20%;
+}
